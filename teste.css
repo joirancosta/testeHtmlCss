@@ -1,0 +1,34 @@
+body {
+    background-color: aqua;
+}
+/* comentário */
+/*
+    Cada seletor tem um peso
+    A soma dos pesos faz a declaração ser aplicada
+    #id - 100
+    .class - 10
+    element - 1
+    -> Mais pesos
+    - style
+    - !important
+
+    -> Combinator
+    - Descendente
+        main p {}
+    - List 
+        span, mark
+    - Next sibling
+        h2 + p
+    - Child
+        aside > p
+*/
+#titulo {
+    border: 2px solid black;
+}
+h1 {
+    background-color: green;
+    text-transform: uppercase;
+}
+h1{
+    background-color: pink;
+}

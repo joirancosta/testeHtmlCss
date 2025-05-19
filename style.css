@@ -1,0 +1,15 @@
+body {
+    background-color: bisque;
+}
+
+.border {
+    /*
+    border-width: 4px 8px 16px 4px;
+    border-style: dotted solid double dashed;
+    border-color: red yellow orange green;
+    */
+    border: 2px solid red;
+}
+div {
+    min-width: 800px; 
+}
