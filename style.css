@@ -10,6 +10,51 @@ body {
     */
     border: 2px solid red;
 }
-div {
-    min-width: 800px; 
+.tamanho {
+    border: solid green;
+    min-width: 500px;
+    max-width: 700px;
+    width: 600px;
+    
+    min-height: 50px;
+    max-height: 150px;
+    height: 100px;
+}
+.margin {
+    border: solid blue;
+    /* margin: 30px; */
+    width: 50%;
+    margin: auto;
+}
+
+.margin2 {
+    border: solid blue;
+    /*
+    margin: 30px;
+    */
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+#pad {
+    width: 200px;
+    height: 100px;
+    border: solid grey;
+}
+
+.padding{
+    padding: 20px 40px 0 10px;
+}
+
+#sizing {
+    width: 200px;
+    height: 100px;
+    border: solid orange;
+}
+
+.box {
+    box-sizing: border-box;
+    padding: 20px
 }
