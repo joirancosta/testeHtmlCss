@@ -1,5 +1,22 @@
+/*
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*/
+
 body {
     background-color: bisque;
+    background-image: url("photo.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    /*background: bisque url("photo.jpeg") no-repeat center/100%;*/
+}
+
+nav {
+    background-color: orange;
+}
+
+main {
+    background: url("imagem.jpeg") repeat center/10%;
 }
 
 .border {
@@ -57,4 +74,8 @@ body {
 .box {
     box-sizing: border-box;
     padding: 20px
+}
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
 }

@@ -28,7 +28,28 @@ body {
 h1 {
     background-color: green;
     text-transform: uppercase;
+    color: blue;
 }
 h1{
     background-color: pink;
+}
+p {
+    /*
+    font (shorthand)
+    */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    line-height: 1.5;
+}
+
+mark {
+    color: brown;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: line-through rgba(19, 0, 128, 0.521) wavy 4px;
 }
