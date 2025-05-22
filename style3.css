@@ -10,6 +10,11 @@
   grid-template-columns: 20px 20px;
 }
 
+p {
+  width: 800px;
+  text-align: justify;
+}
+
 section {
   position: relative;
   border: 2px solid;
@@ -28,7 +33,7 @@ section {
   position: relative;
   top: 20px;
   left: 20px;
-  z-index: -1;
+  z-index: 1;
 }
 
 #posicao.position2 {
