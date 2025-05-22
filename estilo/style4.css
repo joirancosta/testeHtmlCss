@@ -1,0 +1,17 @@
+.containerBL {
+  border: dashed;
+  margin-bottom: 4px
+}
+
+.containerFL {
+  display: flex;
+  flex-direction: column-reverse;
+  border: dashed;
+  margin-bottom: 4px
+}
+
+.item {
+  --hue: 0;
+  text-align: center;
+  background-color: hsl(var(--hue), 100%, 70%);
+}
