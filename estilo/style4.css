@@ -3,15 +3,91 @@
   margin-bottom: 4px
 }
 
-.containerFL {
+.containerFL1 {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+  border: dashed;
+  height: 20vh;
+  margin-bottom: 4px
+}
+
+.containerFL2 {
+  display: flex;
+  flex-wrap: wrap;
   border: dashed;
   margin-bottom: 4px
 }
 
-.item {
+.containerFL3 {
+  display: flex;
+  border: dashed;
+  margin-bottom: 4px
+}
+
+.containerFL4 {
+  display: flex;
+  border: dashed;
+  margin-bottom: 4px
+}
+
+.itemBL {
   --hue: 0;
   text-align: center;
   background-color: hsl(var(--hue), 100%, 70%);
+}
+
+.itemFL {
+  --hue: 0;
+  text-align: center;
+  background-color: hsl(var(--hue), 100%, 70%);
+  flex-basis: 50px;
+  /* gap: 50px; --> espaçoes entre as tags
+  margin-top: auto; */ 
+}
+
+.itemFL2 {
+  --hue: 0;
+  text-align: center;
+  background-color: hsl(var(--hue), 100%, 70%);
+  align-content: center;
+  /* align-items: center; */
+  width: 400px;
+  height: 10vh;
+}
+
+.itemFL3 {
+  --hue: 0;
+  text-align: center;
+  background-color: hsl(var(--hue), 100%, 70%);
+  align-content: center;
+  /* align-items: center; */
+  flex-basis: 250px;
+  flex-shrink: 1;
+  /* width: 300px; */
+  height: 5vh;
+}
+
+.itemFL3:nth-child(3) {
+  flex-shrink: 5;
+}
+
+.itemFL4 {
+  --hue: 0;
+  text-align: center;
+  background-color: hsl(var(--hue), 100%, 70%);
+  align-content: center;
+  /* align-items: center; */
+  flex-grow: 1;
+  /* width: 300px; */
+  height: 5vh;
+}
+
+.itemFL4:nth-child(3) {
+  flex-grow: 8;
+}
+
+.itemFL4:nth-child(1) {
+  order: 1;
 }
