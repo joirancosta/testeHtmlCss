@@ -4,7 +4,7 @@
 
 body {
     background-color: bisque;
-    background-image: url("photo.jpeg");
+    background-image: url("assets/photo.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
@@ -16,7 +16,7 @@ nav {
 }
 
 main {
-    background: url("imagem.jpeg") repeat center/10%;
+    background: url("assets/imagem.jpeg") repeat center/10%;
 }
 
 .border {
