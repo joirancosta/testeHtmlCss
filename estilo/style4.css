@@ -47,6 +47,10 @@
   margin-top: auto; */ 
 }
 
+.itemFL:nth-child(3) {
+  align-self: flex-end;
+}
+
 .itemFL2 {
   --hue: 0;
   text-align: center;
