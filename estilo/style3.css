@@ -1,3 +1,11 @@
+:root {
+  --bg-color: pink;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
 .container1 {
   display: flex;
   justify-content: space-around;
@@ -16,6 +24,8 @@ p {
 }
 
 section {
+  --bg-color: white;
+  background-color: var(--bg-color);
   position: relative;
   border: 2px solid;
   width: 500px;
