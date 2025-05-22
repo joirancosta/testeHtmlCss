@@ -19,6 +19,8 @@ section {
   position: relative;
   border: 2px solid;
   width: 500px;
+  /* overflow: scroll;
+  height: 100px; */
 }
 
 #posicao {
@@ -51,4 +53,10 @@ section {
   background-color: green;
   position: sticky;
   top: 20px;
+}
+
+#posicao.position4 {
+  background-color: yellow;
+  position: fixed;
+  z-index: 1;
 }
