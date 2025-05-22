@@ -1,3 +1,11 @@
+section{
+  border: 2px solid white;
+}
+
+section:has(div:hover) {
+  border: 2px solid blue;
+}
+
 div {
   width: 40px;
   height: 40px;
@@ -5,4 +13,43 @@ div {
   text-align: center;
   line-height: 250%;
   margin-top: 4px;
+  position: relative;
+}
+
+div:not(.nao) {
+  color: red;
+}
+
+div:nth-child(1) {
+  background-color: yellow;
+}
+
+div:nth-child(2) {
+  background-color: pink;
+}
+
+div:nth-child(3) {
+  background-color: orange;
+}
+
+div:hover {
+  background-color: green;
+}
+
+div::first-letter {
+  font-size: 40px;
+}
+
+div::before {
+  content: "a";
+  /* background-color: grey;
+  position: absolute;
+  height: 100%;
+  width: 5px;
+  top: 0;
+  left: 0; */
+}
+
+div::after {
+  content: "b";
 }
