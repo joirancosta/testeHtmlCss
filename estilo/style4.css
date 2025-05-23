@@ -95,3 +95,15 @@
 .itemFL4:nth-child(1) {
   order: 1;
 }
+
+.imagem {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+}
