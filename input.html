@@ -6,7 +6,7 @@
   <title>Document</title>
 </head>
 <body>
-  <form>
+  <form enctype="multipart/form-data">
 <!--     
     <input 
     type="text"
@@ -23,10 +23,101 @@
     type="text"
     placeholder="coloque seu nome"
     > -->
-    <input type="number" min="5" max="25" step="2">
+    <input 
+    type="number" 
+    min="5" 
+    max="25" 
+    step="2"
+    >
     <button>submit</button>  <br>
-    <input type="email" name="mail" multiple minlength="3" maxlength="10">
+    <input 
+    type="email" 
+    name="mail" 
+    multiple  
+    minlength="3" 
+    maxlength="10"
+    pattern=".+@rocketseat\.com"
+    title="Emails apenas @rocketseat.com"
+    >
     <button>submit</button> <br>
+    <input 
+    type="password"
+    minlength="8" 
+    maxlength="16"
+    name="senha"
+    inputmode="numeric"
+    pattern="[#0-9a-fA-F]{4,8}"
+    title="Apenas hexadecimal"
+    >
+    <button>submit</button> <br>
+    <input 
+    type="file"
+    name="foto perfil"
+    multiple
+    accept=".html"
+    >
+    <button>submit</button> <br>
+    <input 
+    type="range"
+    name="total"
+    min="100"
+    max="999"
+    step="5"
+    value="500"
+    >
+    <button>submit</button> <br>
+   <datalist id="colorpiker">
+    <option value="#FCAC00"></option>
+    <option value="#ACFCD0"></option>
+   </datalist>
+    <input 
+    type="color"
+    name="color"
+    value="#0FACAA"
+    list="colorpiker"
+    >
+    <button>submit</button> <br>
+    <input 
+    type="checkbox"
+    name="carro"
+    value="fiat"
+    checked
+    >
+    <input 
+    type="checkbox"
+    name="carro"
+    value="vw"
+    checked
+    >
+    <button>submit</button> <br>
+    <input 
+    type="radio"
+    name="carro"
+    value="vw"
+    checked
+    >
+    <input 
+    type="radio"
+    name="carro"
+    value="fiat"
+    >
+    <button>submit</button> <br>
+    <input 
+    type="hidden"
+    name="id"
+    value="fdafef-adfek-3423kk"
+    >
+    <button>submit</button> <br>
+    <label for="nome">Nome</label>
+    <input type="text" name="nome" id="nome" placeholder="Coloque seu nome">
+    <button>submit</button> <br>
+    <label>
+      Nome
+      <input type="text" name="nome" placeholder="Coloque seu nome">
+    </label>
+    <button>submit</button> <br>
+    <!-- caniuse.com -->
+     <!-- devdocs.io -->
   </form>
 </body>
 </html>
