@@ -1,0 +1,12 @@
+@import url(animations-1.css);
+@import url(animations-2.css);
+
+body {
+  max-width: 80%;
+  margin-inline: auto;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
